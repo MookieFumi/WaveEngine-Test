@@ -22,6 +22,13 @@
               <NonAlphaCompressionFormat>R8G8B8A8</NonAlphaCompressionFormat>
               <Platform>Android</Platform>
             </Profile>
+            <Profile>
+              <AlphaCompressionFormat>PVRTC4BPP</AlphaCompressionFormat>
+              <LauncherType>Default</LauncherType>
+              <Name>iOSProfile</Name>
+              <NonAlphaCompressionFormat>PVRTC4BPP</NonAlphaCompressionFormat>
+              <Platform>iOS</Platform>
+            </Profile>
           </d5p1:Profiles>
         </d3p1:Value>
       </d3p1:KeyValueOfstringanyType>
