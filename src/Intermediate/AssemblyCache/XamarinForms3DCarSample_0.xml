@@ -122,9 +122,6 @@
         <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Textures.headlight_normal_jpg">
             <summary> Path to Content/Assets/Textures/headlight_normal.jpg </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Textures.pizza4_jpg">
-            <summary> Path to Content/Assets/Textures/pizza4.jpg </summary>
-        </member>
         <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Textures.plate_png">
             <summary> Path to Content/Assets/Textures/plate.png </summary>
         </member>
@@ -163,9 +160,6 @@
         </member>
         <member name="F:XamarinForms3DCarSample.WaveContent.Scenes.Loading">
             <summary> Path to Content/Scenes/Loading.wscene </summary>
-        </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Scenes.Loading2">
-            <summary> Path to Content/Scenes/Loading2.wscene </summary>
         </member>
         <member name="F:XamarinForms3DCarSample.WaveContent.Scenes.MyScene">
             <summary> Path to Content/Scenes/MyScene.wscene </summary>
