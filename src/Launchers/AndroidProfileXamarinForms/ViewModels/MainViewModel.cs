@@ -1,91 +1,59 @@
 using System.Windows.Input;
 using XamarinForms3DCarSample.Helpers;
 using Xamarin.Forms;
-using XamarinForms3DCarSample.ViewModels.Base;
 using System;
 using XamarinForms3DCarSampleXamarinForms.Models;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using XamarinForms3DCarSampleXamarinForms.ViewModels.Base;
+using Prism.Navigation;
+using Prism.Services;
 
 namespace XamarinForms3DCarSample.ViewModels
 {
     public class MainViewModel : ViewModelBase
     {
-        private bool _isCamera1;
-        private bool _isCamera2;
-        private bool _isCamera3;
+        private bool _isPanelExpanded;
         private bool _isInit;
         private bool _isEnabled;
-        private ObservableCollection<CustomColor> _colors;
+        private GridLength _columnWidth;
 
-        public MainViewModel()
+        public MainViewModel(INavigationService navigationService, IPageDialogService dialogService) : base(navigationService, dialogService)
         {
-            IsCamera1 = true;
-            IsCamera2 = false;
-            IsCamera3 = false;
+            IsPanelExpanded = false;
             IsInit = false;
             IsEnabled = true;
-            Colors = new ObservableCollection<CustomColor>();
+            ColumnWidth = new GridLength(1, GridUnitType.Star); 
+
+            WaveEngineFacade.Initialized += OnInitialized;
+            WaveEngineFacade.AnimationCompleted += OnAnimationCompleted;
         }
 
-        public bool IsCamera1
+        public GridLength ColumnWidth
         {
-            get { return _isCamera1; }
-            set
-            {
-                _isCamera1 = value;
-                RaisePropertyChanged(() => IsCamera1);
-            }
+            get { return _columnWidth; }
+            set { SetProperty(ref _columnWidth, value); }
         }
 
-        public bool IsCamera2
+        public bool IsPanelExpanded
         {
-            get { return _isCamera2; }
-            set
-            {
-                _isCamera2 = value;
-                RaisePropertyChanged(() => IsCamera2);
-            }
+            get { return _isPanelExpanded; }
+            set { SetProperty(ref _isPanelExpanded, value); }
         }
 
-        public bool IsCamera3
-        {
-            get { return _isCamera3; }
-            set
-            {
-                _isCamera3 = value;
-                RaisePropertyChanged(() => IsCamera3);
-            }
-        }
         public bool IsInit
         {
             get { return _isInit; }
-            set
-            {
-                _isInit = value;
-                RaisePropertyChanged(() => IsInit);
+            set {
+                SetProperty(ref _isInit, value);
             }
         }
 
         public bool IsEnabled
         {
             get { return _isEnabled; }
-            set
-            {
-                _isEnabled = value;
-                RaisePropertyChanged(() => IsEnabled);
-            }
-        }
-
-        public ObservableCollection<CustomColor> Colors
-        {
-            get { return _colors; }
-            set
-            {
-                _colors = value;
-                RaisePropertyChanged(() => IsEnabled);
-            }
+            set { SetProperty(ref _isEnabled, value); }
         }
 
         public ICommand ChangeCameraCommand => new Command<string>(ChangeCamera);
@@ -94,14 +62,20 @@ namespace XamarinForms3DCarSample.ViewModels
 
         public ICommand CloseMenuCommand => new Command(CloseMenu);
 
-        public ICommand ColorTappedCommand => new Command<CustomColor>(ChooseColor);
+        public ICommand ExpandPanelCommand => new Command(ExpandPanel);
 
-        public override Task InitializeAsync(object navigationData)
+        private void ExpandPanel()
         {
-            WaveEngineFacade.Initialized += OnInitialized;
-            WaveEngineFacade.AnimationCompleted += OnAnimationCompleted;
+            if (IsPanelExpanded)
+            {
+                ColumnWidth = new GridLength(1, GridUnitType.Star); 
+            }
+            else
+            {
+                ColumnWidth = new GridLength(0);
+            }
 
-            return Task.FromResult(true);
+            IsPanelExpanded = !IsPanelExpanded;
         }
 
         private void ChangeCamera(string camera)
@@ -110,22 +84,22 @@ namespace XamarinForms3DCarSample.ViewModels
 
             var cameraType = Enum.Parse(typeof(CameraType), camera);
 
-            IsCamera1 = false;
-            IsCamera2 = false;
-            IsCamera3 = false;
+            //IsCamera1 = false;
+            //IsCamera2 = false;
+            //IsCamera3 = false;
 
-            switch ((CameraType)cameraType)
-            {
-                case CameraType.Camera1:
-                    IsCamera1 = true;
-                    break;
-                case CameraType.Camera2:
-                    IsCamera2 = true;
-                    break;
-                case CameraType.Camera3:
-                    IsCamera3 = true;
-                    break;
-            }
+            //switch ((CameraType)cameraType)
+            //{
+            //    case CameraType.Camera1:
+            //        //IsCamera1 = true;
+            //        break;
+            //    case CameraType.Camera2:
+            //        IsCamera2 = true;
+            //        break;
+            //    case CameraType.Camera3:
+            //        IsCamera3 = true;
+            //        break;
+            //}
 
             WaveEngineFacade.SetActiveCamera((int)cameraType);
         }
@@ -144,38 +118,17 @@ namespace XamarinForms3DCarSample.ViewModels
         {
             IsInit = true;
 
-            foreach (var color in LoadColors())
-            {
-                Colors.Add(color);
-            }
+            //foreach (var color in LoadColors())
+            //{
+            //    Colors.Add(color);
+            //}
         }
 
-        private List<CustomColor> LoadColors()
-        {
-            return new List<CustomColor>
-            {
-                new CustomColor { Hex = "#00ff00" },
-                new CustomColor { Hex = "#ff0000" },
-                new CustomColor { Hex = "#0000ff" },
-                new CustomColor { Hex = "#f4a460" },
-                new CustomColor { Hex = "#ffb6c1" },
-                new CustomColor { Hex = "#ffff00" },
-                new CustomColor { Hex = "#ffa500" },
-                new CustomColor { Hex = "#cccccc" },
-                new CustomColor { Hex = "#ffffff" },
-                new CustomColor { Hex = "#000000" },
-                new CustomColor { Hex = "#800080" },
-                new CustomColor { Hex = "#000080" },
-                new CustomColor { Hex = "#ff00ff" },
-                new CustomColor { Hex = "#00ffff" }
-            };
-        }
-
-        private void ChooseColor(CustomColor color)
-        {
-            MessagingCenter.Send(this, MessengerKeys.CloseColors);
-            WaveEngineFacade.UpdateColor(color);
-        }
+        //private void ChooseColor(CustomColor color)
+        //{
+        //    MessagingCenter.Send(this, MessengerKeys.CloseColors);
+        //    WaveEngineFacade.UpdateColor(color);
+        //}
 
         private void OnAnimationCompleted(object sender, EventArgs e)
         {

@@ -5,9 +5,9 @@ using XamarinForms3DCarSample.ViewModels;
 
 namespace XamarinForms3DCarSample.Views
 {
-    public partial class MainView : MenuContainerPage
+    public partial class MainView : ContentPage
     {
-        private ColorsView _colorsView;
+        //private ColorsView _colorsView;
 
         public MainView()
 		{
@@ -15,19 +15,19 @@ namespace XamarinForms3DCarSample.Views
 
             NavigationPage.SetHasNavigationBar(this, false);
 
-            _colorsView = new ColorsView();
+            //_colorsView = new ColorsView();
 
-            SlideMenu = _colorsView;
+            //SlideMenu = _colorsView;
 
-            MessagingCenter.Subscribe<MainViewModel>(this, MessengerKeys.OpenColors, (sender) =>
-            {
-                OpenColors();
-            });
+            //MessagingCenter.Subscribe<MainViewModel>(this, MessengerKeys.OpenColors, (sender) =>
+            //{
+            //    OpenColors();
+            //});
 
-            MessagingCenter.Subscribe<MainViewModel>(this, MessengerKeys.CloseColors, (sender) =>
-            {
-                CloseColors();
-            });
+            //MessagingCenter.Subscribe<MainViewModel>(this, MessengerKeys.CloseColors, (sender) =>
+            //{
+            //    CloseColors();
+            //});
         }
 
         protected override void OnAppearing()
@@ -36,29 +36,29 @@ namespace XamarinForms3DCarSample.Views
 
             WaveEngineSurface.Game = App.Game;
 
-            ForceLayout();
+            //ForceLayout();
         }
 
-        protected override void OnBindingContextChanged()
-        {
-            base.OnBindingContextChanged();
+        //protected override void OnBindingContextChanged()
+        //{
+        //    base.OnBindingContextChanged();
 
-            if (_colorsView == null)
-            {
-                return;
-            }
+        //    if (_colorsView == null)
+        //    {
+        //        return;
+        //    }
 
-            _colorsView.BindingContext = BindingContext;
-        }
+        //    _colorsView.BindingContext = BindingContext;
+        //}
 
-        private void OpenColors()
-        {
-            ShowMenuAction?.Invoke();
-        }
+        //private void OpenColors()
+        //{
+        //    ShowMenuAction?.Invoke();
+        //}
 
-        private void CloseColors()
-        {
-            HideMenuAction?.Invoke();
-        }
+        //private void CloseColors()
+        //{
+        //    HideMenuAction?.Invoke();
+        //}
     }
 }

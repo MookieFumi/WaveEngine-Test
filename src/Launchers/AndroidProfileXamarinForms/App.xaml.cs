@@ -1,43 +1,68 @@
-using System.Threading.Tasks;
 using Xamarin.Forms;
-using XamarinForms3DCarSample.Services.Navigation;
-using XamarinForms3DCarSample.ViewModels.Base;
+using Prism;
+using Prism.Ioc;
+using Prism.Modularity;
+using XamarinForms3DCarSampleXamarinForms.Extensions;
+using Xamarin.Forms.Xaml;
 
 namespace XamarinForms3DCarSample
 {
-    public partial class App : Application
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class App
     {
-        public App()
+        public static Game Game { get; set; }
+
+        public App() : this(null) { }
+
+        public App(IPlatformInitializer initializer) : base(initializer) { }
+
+        protected override async void OnInitialized()
         {
-            InitNavigation();
+            InitializeComponent();
+
+            //await NavigationService.NavigateAsync($"{nameof(LoginView)}");
+            await NavigationService.NavigateAsync($"/{nameof(NavigationPage)}/MainView");
         }
 
-        public static Game Game { get; set; }
+        protected override void RegisterTypes(IContainerRegistry containerRegistry)
+        {
+            containerRegistry.RegisterForNavigation<NavigationPage>();
+
+            containerRegistry.AddViews();
+            containerRegistry.AddServices();
+        }
+
+        protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
+        {
+            //moduleCatalog.AddModule<LoginModule.LoginModule>(InitializationMode.WhenAvailable);
+
+            //moduleCatalog.AddModule<LoginModule.LoginModule>(InitializationMode.OnDemand);
+            //var moduleManager = Container.Resolve<IModuleManager>();
+            //moduleManager.LoadModule(nameof(LoginModule.LoginModule));
+        }
 
         private void InitGame()
         {
             Game = new Game();
         }
 
-        private Task InitNavigation()
-        {
-            var navigationService = ViewModelLocator.Instance.Resolve<INavigationService>();
-            return navigationService.InitializeAsync();
-        }
+        #region App Events
 
         protected override void OnStart()
         {
             InitGame();
+            base.OnStart();
         }
 
         protected override void OnSleep()
         {
-            // Handle when your app sleeps
+            base.OnSleep();
         }
 
         protected override void OnResume()
         {
-            // Handle when your app resumes
+            base.OnResume();
         }
+        #endregion
     }
 }

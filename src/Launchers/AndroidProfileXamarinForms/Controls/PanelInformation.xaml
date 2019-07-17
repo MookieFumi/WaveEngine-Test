@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView  
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XamarinForms3DCarSampleXamarinForms.Controls.PanelInformation">
+    <ContentView.Content>
+      <StackLayout Padding="10">
+          <Label Text="CDS 801" FontSize="Large" />
+            <StackLayout>
+                <Label FontAttributes="Bold" FontSize="Title" Text="Informacion técnica"></Label>
+                <BoxView HorizontalOptions="FillAndExpand" BackgroundColor="Yellow" HeightRequest="1"/>
+                <Label FontSize="Subtitle" Text="&#x2022; Capacidad de 2 bolsas/moneda (2.250 monedas/bolsa). Máximo 12 Kg por bolsa." />
+                <Label FontSize="Subtitle" Text="&#x2022; Velocidad del ingresador hasta 900 monedas/minuto." />
+                <Label FontSize="Subtitle" Text="&#x2022; Dimensiones (ancho, profundo, alto): 420x685x1045mm" />
+            </StackLayout>
+            <StackLayout>
+                <Label FontAttributes="Bold" FontSize="Title" Text="Otros requirimientos"></Label>
+                <BoxView HorizontalOptions="FillAndExpand" BackgroundColor="Yellow" HeightRequest="1"/>
+            </StackLayout>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

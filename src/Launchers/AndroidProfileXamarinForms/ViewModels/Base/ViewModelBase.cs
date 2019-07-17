@@ -1,36 +1,68 @@
-﻿using System.Threading.Tasks;
-using XamarinForms3DCarSample.Services.Navigation;
+﻿using System;
+using System.Threading.Tasks;
+using Prism.AppModel;
+using Prism.Mvvm;
+using Prism.Navigation;
+using Prism.Services;
 
-namespace XamarinForms3DCarSample.ViewModels.Base
+namespace XamarinForms3DCarSampleXamarinForms.ViewModels.Base
 {
-    public abstract class ViewModelBase : ExtendedBindableObject
+    public class ViewModelBase : BindableBase, INavigationAware, IDestructible, IApplicationLifecycleAware
     {
         protected readonly INavigationService NavigationService;
+        protected readonly IPageDialogService DialogService;
 
-        private bool _isBusy;
-
-        public bool IsBusy
+        private string _title;
+        public string Title
         {
-            get
-            {
-                return _isBusy;
-            }
-
-            set
-            {
-                _isBusy = value;
-                RaisePropertyChanged(() => IsBusy);
-            }
+            get { return _title; }
+            set { SetProperty(ref _title, value); }
         }
 
-        public ViewModelBase()
+        public ViewModelBase(INavigationService navigationService, IPageDialogService dialogService)
         {
-            NavigationService = ViewModelLocator.Instance.Resolve<INavigationService>();
+            NavigationService = navigationService;
+            DialogService = dialogService;
         }
 
-        public virtual Task InitializeAsync(object navigationData)
+        protected async Task HandleError(Exception exception)
         {
-            return Task.FromResult(false);
+            //if (exception is DivideByZeroException)
+            //{
+            await DialogService.DisplayAlertAsync("Error", exception.Message, "Ok");
+            //}
+
+            //Crashes.TrackError(exception);
+        }
+
+        public virtual void Destroy()
+        {
+            //throw new NotImplementedException();
+        }
+
+        public virtual void OnNavigatedFrom(INavigationParameters parameters)
+        {
+            //throw new NotImplementedException();
+        }
+
+        public virtual void OnNavigatedTo(INavigationParameters parameters)
+        {
+            //throw new NotImplementedException();
+        }
+
+        public virtual void OnNavigatingTo(INavigationParameters parameters)
+        {
+            //throw new NotImplementedException();
+        }
+
+        public virtual void OnResume()
+        {
+            //throw new System.NotImplementedException();
+        }
+
+        public virtual void OnSleep()
+        {
+            //throw new System.NotImplementedException();
         }
     }
 }

@@ -13,18 +13,21 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)AppSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\Panel3DContainer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\PanelInformation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Controls\ToggleButton.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\WaveEngineSurface.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\InverseBoolConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\IContainerRegistryExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\WaveEngineFacade.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MessengerKeys.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\CameraType.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\CustomColor.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Services\Navigation\INavigationService.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Services\Navigation\NavigationService.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Base\ExtendedBindableObject.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Base\ViewModelBase.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Base\ViewModelLocator.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\ColorsView.xaml.cs">
       <DependentUpon>ColorsView.xaml</DependentUpon>
@@ -46,6 +49,30 @@
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\ColorsView.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="D:\xamarin-forms-waveengine-sample\src\Launchers\AndroidProfileXamarinForms\Controls\3DPanelView.xaml.cs">
+      <DependentUpon>3DPanelView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="D:\xamarin-forms-waveengine-sample\src\Launchers\AndroidProfileXamarinForms\Controls\Panel3dContainer.xaml.cs">
+      <DependentUpon>Panel3dContainer.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="D:\xamarin-forms-waveengine-sample\src\Launchers\AndroidProfileXamarinForms\Controls\PanelInformation.xaml.cs">
+      <DependentUpon>PanelInformation.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Controls\PanelInformation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Controls\Panel3DContainer.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>

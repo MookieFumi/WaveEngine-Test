@@ -67,6 +67,15 @@
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
     <Reference Include="OpenTK-1.0" />
+    <Reference Include="Prism, Version=7.1.0.431, Culture=neutral, PublicKeyToken=40ee6c3a2184dc59, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Prism.Core.7.1.0.431\lib\netstandard2.0\Prism.dll</HintPath>
+    </Reference>
+    <Reference Include="Prism.Forms, Version=7.1.0.431, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Prism.Forms.7.1.0.431\lib\netstandard2.0\Prism.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Prism.Unity.Forms, Version=7.1.0.431, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Prism.Unity.Forms.7.1.0.431\lib\monoandroid71\Prism.Unity.Forms.dll</HintPath>
+    </Reference>
     <Reference Include="SlideOverKit, Version=1.0.5974.31059, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\SlideOverKit.2.0.0\lib\MonoAndroid10\SlideOverKit.dll</HintPath>
     </Reference>
@@ -81,6 +90,12 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="Unity.Abstractions, Version=3.3.1.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Unity.Abstractions.3.3.1\lib\netstandard2.0\Unity.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Container, Version=5.8.11.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Unity.Container.5.8.11\lib\netstandard2.0\Unity.Container.dll</HintPath>
+    </Reference>
     <Reference Include="WaveEngine.Adapter">
       <HintPath>..\..\packages\WaveEngine.Adapter.2.5.0.39\lib\MonoAndroid\WaveEngine.Adapter.dll</HintPath>
     </Reference>

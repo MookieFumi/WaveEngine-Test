@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Application xmlns="http://xamarin.com/schemas/2014/forms"
+<prism:PrismApplication xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Unity;assembly=Prism.Unity.Forms"
+             xmlns:converters="clr-namespace:XamarinForms3DCarSample.Converters;assembly=XamarinForms3DCarSample.Droid"
              x:Class="XamarinForms3DCarSample.App">
-	<Application.Resources>
+    <Application.Resources>        
+        <!--Converters-->
+        <converters:InverseBoolConverter x:Key="InverseBoolConverter" />
+        
+        <!--Colors-->
+        <Color x:Key="3DBackgroundColor">#e5dcd3</Color>
 
-		<!-- Application resource dictionary -->
-
-	</Application.Resources>
-</Application>
+        <!--Styles-->
+        <Style x:Key="WhiteButton" TargetType="Button">
+            <Setter Property="BackgroundColor" Value="White"/>
+            <Setter Property="CornerRadius" Value="20" />
+        </Style>
+    </Application.Resources>
+</prism:PrismApplication>
