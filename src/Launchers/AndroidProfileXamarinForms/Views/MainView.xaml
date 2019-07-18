@@ -2,59 +2,10 @@
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="XamarinForms3DCarSample.Views.MainView"
-    xmlns:converters="clr-namespace:XamarinForms3DCarSample.Converters;assembly=XamarinForms3DCarSample.Droid"
-    xmlns:controls="clr-namespace:XamarinForms3DCarSample.Controls;assembly=XamarinForms3DCarSample.Droid"
-    xmlns:me="clr-namespace:XamarinForms3DCarSampleXamarinForms.Controls"
-    xmlns:slideOverKit="clr-namespace:SlideOverKit;assembly=SlideOverKit">
+    x:Class="XamarinForms3DCarSample.Views.MainView"    
+    xmlns:controls="clr-namespace:XamarinForms3DCarSample.Controls"
+    xmlns:me="clr-namespace:XamarinForms3DCarSampleXamarinForms.Controls">
     <ContentPage.Resources>
-        <ResourceDictionary>
-
-            <!-- COLORS -->
-            <Color x:Key="WhiteColor">#ffffff</Color>
-            <Color x:Key="BlackColor">#000000</Color>
-
-            <!-- CONVERTERS -->
-            <converters:InverseBoolConverter x:Key="InverseBoolConverter" />
-
-            <!-- STYLES -->
-            <Style x:Key="MenuImageStyle"
-                   TargetType="Image">
-                <Setter Property="HorizontalOptions"
-                        Value="Start" />
-                <Setter Property="VerticalOptions"
-                        Value="Start" />
-                <Setter Property="HeightRequest"
-                        Value="48" />
-                <Setter Property="WidthRequest"
-                        Value="48" />
-                <Setter Property="Margin"
-                        Value="12" />
-            </Style>
-
-            <Style x:Key="CameraButtonPanelStyle"
-                   TargetType="Grid">
-                <Setter Property="WidthRequest"
-                        Value="48" />
-                <Setter Property="HorizontalOptions"
-                        Value="End" />
-                <Setter Property="VerticalOptions"
-                        Value="Center" />
-                <Setter Property="Margin"
-                        Value="12" />
-            </Style>
-
-            <Style x:Key="CameraButtonStyle"
-                   TargetType="controls:ToggleButton">
-                <Setter Property="HeightRequest"
-                        Value="48" />
-                <Setter Property="WidthRequest"
-                        Value="48" />
-                <Setter Property="Margin"
-                        Value="0, 6" />
-            </Style>
-
-        </ResourceDictionary>
     </ContentPage.Resources>
     <Grid>
         <Grid.RowDefinitions>
@@ -74,18 +25,20 @@
                         </Grid.RowDefinitions>
                         <!--HEADER-->
                         <StackLayout Grid.Row="0" Orientation="Horizontal" Padding="5">
-                            <Button Text="Como funciona" Style="{StaticResource Key=WhiteButton}" HorizontalOptions="StartAndExpand" VerticalOptions="Center"/>
+                        <Button Text="Como funciona" Style="{StaticResource Key=WhiteButton}" HorizontalOptions="StartAndExpand" VerticalOptions="Center" Command="{Binding ChangeAnimationCommand}" CommandParameter="InternalWorking"/>
                             <Button Text="Resize" Style="{StaticResource Key=WhiteButton}" HorizontalOptions="EndAndExpand" VerticalOptions="Center" Command="{Binding ExpandPanelCommand}"/>
                         </StackLayout>                       
                         <!--BODY-->
                         <StackLayout Grid.Row="1" >
-                            <controls:WaveEngineSurface x:Name="WaveEngineSurface" VerticalOptions="FillAndExpand"/>                                
+                        <controls:WaveEngineSurface x:Name="WaveEngineSurface" VerticalOptions="FillAndExpand"/>
                         </StackLayout>
                         <!--FOOTER-->
                         <StackLayout Grid.Row="2" Orientation="Horizontal" VerticalOptions="End" Padding="5">
-                            <Button Text="79 €" Style="{StaticResource Key=WhiteButton}" HorizontalOptions="Start" VerticalOptions="End" Command="{Binding ChangeCameraCommand}" CommandParameter="Camera1"/>
-                            <Button Text="160 €" Style="{StaticResource Key=WhiteButton}" HorizontalOptions="Start" VerticalOptions="End" Command="{Binding ChangeCameraCommand}" CommandParameter="Camera2"/>
-                        </StackLayout>
+                        <Button Text="500 €" Style="{StaticResource Key=WhiteButton}" HorizontalOptions="Start" VerticalOptions="End" Command="{Binding ChangeAnimationCommand}" CommandParameter="bucks1"/>
+                        <Button Text="1000 €" Style="{StaticResource Key=WhiteButton}" HorizontalOptions="Start" VerticalOptions="End" Command="{Binding ChangeAnimationCommand}" CommandParameter="bucks2"/>
+                        <Button Text="1700 €" Style="{StaticResource Key=WhiteButton}" HorizontalOptions="Start" VerticalOptions="End" Command="{Binding ChangeAnimationCommand}" CommandParameter="bucks3"/>
+                        <!--<Button Text="2400 €" Style="{StaticResource Key=WhiteButton}" HorizontalOptions="Start" VerticalOptions="End" Command="{Binding ChangeAnimationCommand}" CommandParameter="bucks4"/>-->                            
+                    </StackLayout>
                     </Grid>
                 </Grid>
             </StackLayout>

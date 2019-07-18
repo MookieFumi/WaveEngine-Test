@@ -9,24 +9,19 @@
     <Import_RootNamespace>XamarinForms3DCarSampleXamarinForms</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Animations.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)AppSettings.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Controls\Panel3DContainer.xaml.cs">
-      <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Controls\PanelInformation.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Controls\ToggleButton.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\WaveEngineSurface.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\InverseBoolConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Extensions\IContainerRegistryExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\WaveEngineFacade.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Machines.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MessengerKeys.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Models\CameraType.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Models\CustomColor.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Base\ViewModelBase.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\MainView.xaml.cs">
@@ -60,8 +55,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Controls\Panel3DContainer.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </EmbeddedResource>
+    <Folder Include="$(MSBuildThisFileDirectory)Models\" />
   </ItemGroup>
 </Project>

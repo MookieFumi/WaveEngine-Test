@@ -1,109 +1,115 @@
 using System;
 using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using WaveEngine.Components.Graphics3D;
+using WaveEngine.Components.Animation;
 using WaveEngine.Framework;
-using WaveEngine.Framework.Services;
-using WaveEngine.Materials;
-using XamarinForms3DCarSample.Components;
-using XamarinForms3DCarSampleXamarinForms.Models;
+using WaveEngine.Framework.Graphics;
+using XamarinForms3DCarSampleXamarinForms;
 
 namespace XamarinForms3DCarSample.Helpers
 {
     public static class WaveEngineFacade
     {
-        private static List<Entity> _cameras;
+
+        private static Entity _currentPrefab;
+        private static Entity _physicalCamera;
         private static MyScene _scene;
 
         public static event EventHandler<EventArgs> Initialized;
-        public static event EventHandler<EventArgs> AnimationCompleted;
 
         public static void Initialize(MyScene scene)
         {
             _scene = scene;
-            InitializeCameras();
-            SetActiveCamera(AppSettings.DefaultCamera);
-        }
-        public static void SetActiveCamera(int cameraIndex)
-        {
-            if (cameraIndex < 0 || cameraIndex > AppSettings.NumberOfCameras)
-            {
-                return;
-            }
 
-            // Change camera position
-            var activeCamera = _cameras[cameraIndex];
-            var animationCameraComponent = _scene.EntityManager.Find(AppSettings.CameraName)?.
-                FindComponent<AnimationCameraComponent>();
-
-            if (activeCamera != null)
-            {
-                animationCameraComponent.MoveTo(activeCamera);
-                animationCameraComponent.AnimationCompleted += OnAnimationCompleted;
-            }
-        }
-
-        public static ScreenContextManager GetScreenContextManager()
-        {
-            return WaveServices.ScreenContextManager;
-        }
-
-        public static Scene GetCurrentScene()
-        {
-            if (WaveServices.ScreenContextManager.CurrentContext.Count == 0)
-                return null;
-
-            return WaveServices.ScreenContextManager.CurrentContext[0];
-        }
-
-        public static void UpdateColor(CustomColor color)
-        {
-            var entity = _scene.EntityManager.Find("car.Plane_036.Plane_041");
-            var materialComponent = entity.FindComponent<MaterialComponent>();
-            var hex = color.Hex;
-            ((StandardMaterial)materialComponent.Material).DiffuseColor = FromHex(hex);
-        }
-
-        private static WaveEngine.Common.Graphics.Color FromHex(string color)
-        {
-            if (color.IndexOf("#") != -1)
-                color = color.Replace("#", "");
-
-            float R = int.Parse(color.Substring(0, 2), System.Globalization.NumberStyles.HexNumber) / 255;
-            float G = int.Parse(color.Substring(2, 2), System.Globalization.NumberStyles.HexNumber) / 255;
-            float B = int.Parse(color.Substring(4, 2), System.Globalization.NumberStyles.HexNumber) / 255;
-
-            return new WaveEngine.Common.Graphics.Color(R, G, B, 1.0f);
-        }
-
-        private static void InitializeCameras()
-        {
-            if (_cameras != null && _cameras.Any())
-            {
-                return;
-            }
-
-            _cameras = new List<Entity>();
-
-
-            var camera1 = _scene.EntityManager.Find("camera1Entity");
-            _cameras.Add(camera1);
-
-            var camera2 = _scene.EntityManager.Find("camera2Entity");
-            _cameras.Add(camera2);
-
-            var camera3 = _scene.EntityManager.Find("camera3Entity");
-            _cameras.Add(camera3);
+            Init(Machines.SDM100);
 
             Initialized?.Invoke(null, new EventArgs());
+
+            PlayAnimation(Animations.InternalWorking);            
         }
 
-        private static void OnAnimationCompleted(object sender, EventArgs e)
+        private static void Init(string machineName)
         {
-            var component = sender as AnimationCameraComponent;
-            component.AnimationCompleted -= OnAnimationCompleted;
-            AnimationCompleted?.Invoke(sender, e);
+            _currentPrefab = _scene.EntityManager.Instantiate("Content/Assets/" + machineName + ".wpref");
+            _currentPrefab = SDM_100_Setup(_currentPrefab);
+
+            _currentPrefab.IsVisible = true;
+            _currentPrefab.IsActive = true;
+
+            _scene.EntityManager.Add(_currentPrefab);
         }
+
+        public static void PlayAnimation(string animationName)
+        {
+            var items = new List<Entity>(_physicalCamera.ChildEntities);
+            foreach (Entity item in items)
+            {
+                item.IsVisible = false;
+            }
+
+            Entity ent;
+            switch (animationName)
+            {
+                case Animations.Bucks1:
+                    ent = items.Find(ef => ef.Name.Equals("Cartela_500"));
+                    ent.IsVisible = true;
+                    break;
+                case Animations.Bucks2:
+                    ent = items.Find(ef => ef.Name.Equals("Cartela_1000"));
+                    ent.IsVisible = true;
+                    break;
+                case Animations.Bucks3:
+                    ent = items.Find(ef => ef.Name.Equals("Cartela_1700"));
+                    ent.IsVisible = true;
+                    break;
+                case Animations.Bucks4:
+                    ent = items.Find(ef => ef.Name.Equals("Cartela_2400"));
+                    ent.IsVisible = true;
+                    break;
+                case Animations.InternalWorking:
+                    break;
+            }
+
+            var animation3D = _currentPrefab.FindComponent<Animation3D>();
+            animation3D.CurrentAnimation = animationName;
+            animation3D.PlayAnimation(animationName, loop: false);
+            animation3D.IsActive = true;
+        }
+
+        private static Entity SDM_100_Setup(Entity entity)
+        {
+            var childEntities = entity.ChildEntities;
+            foreach (var childEntity in childEntities)
+            {
+                RemoveCameras(childEntity);
+
+                if (childEntity.Name.Equals("PhysCamera001"))
+                {
+                    _physicalCamera = childEntity;
+                    CreateCamera(childEntity);
+                }
+            }            
+
+            return entity;
+        }
+
+        private static void CreateCamera(Entity entity)
+        {
+            var camera = new Camera3D
+            {
+                BackgroundColor = new WaveEngine.Common.Graphics.Color(229, 220, 211),
+                FieldOfView = 0.6f
+            };
+            entity.AddComponent(camera);
+        }
+
+        private static void RemoveCameras(Entity entity)
+        {
+            var cameras = new List<Camera3D>(entity.FindComponents<Camera3D>());
+            if (cameras.Count != 0)
+            {
+                entity.RemoveAllComponentsOfType<Camera3D>();
+            }
+        }
+
     }
 }

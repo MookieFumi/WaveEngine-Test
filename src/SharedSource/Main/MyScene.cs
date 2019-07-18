@@ -1,6 +1,5 @@
-#region Using Statements
 using WaveEngine.Framework;
-#endregion
+using Xamarin.Forms;
 
 namespace XamarinForms3DCarSample
 {
@@ -9,6 +8,13 @@ namespace XamarinForms3DCarSample
         protected override void CreateScene()
         {
             this.Load(WaveContent.Scenes.MyScene);           
+        }
+
+        protected override void Start()
+        {
+            base.Start();
+
+            MessagingCenter.Send(this, MessengerKeys.SceneInitialized);
         }
     }
 }

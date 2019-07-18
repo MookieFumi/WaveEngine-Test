@@ -18,20 +18,20 @@ namespace XamarinForms3DCarSample.Droid
         ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : Xamarin.Forms.Platform.Android.FormsApplicationActivity, IAndroidApplication
     {
-        private IGame game;
-        private GLView view;
-        private bool isGameInitialized = false;
+        private IGame _game;
+        private GLView _view;
+        private bool _isGameInitialized = false;
 
         public GLView View
         {
             get
             {
-                return view;
+                return _view;
             }
 
             set
             {
-                view = value;
+                _view = value;
             }
         }
 
@@ -138,25 +138,25 @@ namespace XamarinForms3DCarSample.Droid
         {
         }
 
-        public void Initialize(IGame theGame)
+        public void Initialize(IGame game)
         {
             MessagingCenter.Subscribe<MyScene>(this, MessengerKeys.SceneInitialized, OnSceneLoaded);
 
-            game = theGame;
-            isGameInitialized = false;
+            _game = game;
+            _isGameInitialized = false;
         }
 
         public void Update(TimeSpan elapsedTime)
         {
-            if (game != null)
+            if (_game != null)
             {
-                if (!isGameInitialized)
+                if (!_isGameInitialized)
                 {
-                    game.Initialize(this);
-                    isGameInitialized = true;
+                    _game.Initialize(this);
+                    _isGameInitialized = true;
                 }
 
-                game.UpdateFrame(elapsedTime);
+                _game.UpdateFrame(elapsedTime);
             }
         }
 
@@ -167,9 +167,9 @@ namespace XamarinForms3DCarSample.Droid
 
         public void Draw(TimeSpan elapsedTime)
         {
-            if (game != null)
+            if (_game != null)
             {
-                game.DrawFrame(elapsedTime);
+                _game.DrawFrame(elapsedTime);
             }
         }
 

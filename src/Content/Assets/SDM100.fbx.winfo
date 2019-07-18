@@ -1,0 +1,915 @@
+﻿<Asset xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="WaveEngine.Framework.Models">
+  <Id>4f2e543a-818e-46cd-a8b9-67de1c62d705</Id>
+  <AsRaw>false</AsRaw>
+  <Asset xmlns:d2p1="WaveEngine.Framework.Models.Assets" i:type="d2p1:Model">
+    <d2p1:AssociatedFiles xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <d2p1:Profiles xmlns:d3p1="WaveEngine.Framework.Models.Profiles">
+      <d3p1:ExportProfile i:type="d3p1:ModelProfile">
+        <d3p1:ExcludeAsset>false</d3p1:ExcludeAsset>
+        <d3p1:Name i:nil="true" />
+      </d3p1:ExportProfile>
+    </d2p1:Profiles>
+    <d2p1:ZipCompress>true</d2p1:ZipCompress>
+    <d2p1:Clips xmlns:d3p1="WaveEngine.Framework.Models.Profiles">
+      <d3p1:Animation>
+        <d3p1:AdditiveReferenceFrame>0</d3p1:AdditiveReferenceFrame>
+        <d3p1:AdditiveReferenceSourceTrack i:nil="true" />
+        <d3p1:End>33.3333321</d3p1:End>
+        <d3p1:Events xmlns:d5p1="http://schemas.datacontract.org/2004/07/WaveEngine.Framework.Animation" />
+        <d3p1:Framerate>30</d3p1:Framerate>
+        <d3p1:InPlaceMode>None</d3p1:InPlaceMode>
+        <d3p1:IsAditiveClip>false</d3p1:IsAditiveClip>
+        <d3p1:Name>bucks1</d3p1:Name>
+        <d3p1:RootMotion>false</d3p1:RootMotion>
+        <d3p1:RootMotionNode i:nil="true" />
+        <d3p1:SourceTrack>Take 001</d3p1:SourceTrack>
+        <d3p1:Start>0</d3p1:Start>
+      </d3p1:Animation>
+      <d3p1:Animation>
+        <d3p1:AdditiveReferenceFrame>0</d3p1:AdditiveReferenceFrame>
+        <d3p1:AdditiveReferenceSourceTrack i:nil="true" />
+        <d3p1:End>66.6666641</d3p1:End>
+        <d3p1:Events xmlns:d5p1="http://schemas.datacontract.org/2004/07/WaveEngine.Framework.Animation" />
+        <d3p1:Framerate>30</d3p1:Framerate>
+        <d3p1:InPlaceMode>Center</d3p1:InPlaceMode>
+        <d3p1:IsAditiveClip>false</d3p1:IsAditiveClip>
+        <d3p1:Name>bucks2</d3p1:Name>
+        <d3p1:RootMotion>false</d3p1:RootMotion>
+        <d3p1:RootMotionNode>RootNode</d3p1:RootMotionNode>
+        <d3p1:SourceTrack>Take 001</d3p1:SourceTrack>
+        <d3p1:Start>33.3333321</d3p1:Start>
+      </d3p1:Animation>
+      <d3p1:Animation>
+        <d3p1:AdditiveReferenceFrame>0</d3p1:AdditiveReferenceFrame>
+        <d3p1:AdditiveReferenceSourceTrack i:nil="true" />
+        <d3p1:End>100</d3p1:End>
+        <d3p1:Events xmlns:d5p1="http://schemas.datacontract.org/2004/07/WaveEngine.Framework.Animation" />
+        <d3p1:Framerate>30</d3p1:Framerate>
+        <d3p1:InPlaceMode>Center</d3p1:InPlaceMode>
+        <d3p1:IsAditiveClip>false</d3p1:IsAditiveClip>
+        <d3p1:Name>bucks3</d3p1:Name>
+        <d3p1:RootMotion>false</d3p1:RootMotion>
+        <d3p1:RootMotionNode>RootNode</d3p1:RootMotionNode>
+        <d3p1:SourceTrack>Take 001</d3p1:SourceTrack>
+        <d3p1:Start>66.6666641</d3p1:Start>
+      </d3p1:Animation>
+      <d3p1:Animation>
+        <d3p1:AdditiveReferenceFrame>0</d3p1:AdditiveReferenceFrame>
+        <d3p1:AdditiveReferenceSourceTrack i:nil="true" />
+        <d3p1:End>133.333328</d3p1:End>
+        <d3p1:Events xmlns:d5p1="http://schemas.datacontract.org/2004/07/WaveEngine.Framework.Animation" />
+        <d3p1:Framerate>30</d3p1:Framerate>
+        <d3p1:InPlaceMode>Center</d3p1:InPlaceMode>
+        <d3p1:IsAditiveClip>false</d3p1:IsAditiveClip>
+        <d3p1:Name>bucks4</d3p1:Name>
+        <d3p1:RootMotion>false</d3p1:RootMotion>
+        <d3p1:RootMotionNode>RootNode</d3p1:RootMotionNode>
+        <d3p1:SourceTrack>Take 001</d3p1:SourceTrack>
+        <d3p1:Start>100</d3p1:Start>
+      </d3p1:Animation>
+      <d3p1:Animation>
+        <d3p1:AdditiveReferenceFrame>0</d3p1:AdditiveReferenceFrame>
+        <d3p1:AdditiveReferenceSourceTrack i:nil="true" />
+        <d3p1:End>183.333328</d3p1:End>
+        <d3p1:Events xmlns:d5p1="http://schemas.datacontract.org/2004/07/WaveEngine.Framework.Animation">
+          <d5p1:AnimationKeyframeEvent>
+            <d5p1:Tag>BucksOut</d5p1:Tag>
+            <d5p1:Time>15.5</d5p1:Time>
+            <d5p1:Value>0</d5p1:Value>
+          </d5p1:AnimationKeyframeEvent>
+          <d5p1:AnimationKeyframeEvent>
+            <d5p1:Tag>BucksIn</d5p1:Tag>
+            <d5p1:Time>3.25</d5p1:Time>
+            <d5p1:Value>1</d5p1:Value>
+          </d5p1:AnimationKeyframeEvent>
+        </d3p1:Events>
+        <d3p1:Framerate>30</d3p1:Framerate>
+        <d3p1:InPlaceMode>Center</d3p1:InPlaceMode>
+        <d3p1:IsAditiveClip>false</d3p1:IsAditiveClip>
+        <d3p1:Name>InternalWorking</d3p1:Name>
+        <d3p1:RootMotion>false</d3p1:RootMotion>
+        <d3p1:RootMotionNode>RootNode</d3p1:RootMotionNode>
+        <d3p1:SourceTrack>Take 001</d3p1:SourceTrack>
+        <d3p1:Start>133.333328</d3p1:Start>
+      </d3p1:Animation>
+    </d2p1:Clips>
+    <d2p1:EmbeddedResources xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <d2p1:ExportAnimations>true</d2p1:ExportAnimations>
+    <d2p1:GenerateTangentSpace>true</d2p1:GenerateTangentSpace>
+    <d2p1:Materials>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>128</d5p1:B>
+          <d5p1:G>128</d5p1:G>
+          <d5p1:R>128</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>13 - Default</d2p1:Name>
+        <d2p1:NormalTextureFile i:nil="true" />
+        <d2p1:Opacity>0.109000027</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>255</d5p1:B>
+          <d5p1:G>255</d5p1:G>
+          <d5p1:R>255</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>Material #1697</d2p1:Name>
+        <d2p1:NormalTextureFile i:nil="true" />
+        <d2p1:Opacity>1</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>255</d5p1:B>
+          <d5p1:G>255</d5p1:G>
+          <d5p1:R>255</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>Material #2714</d2p1:Name>
+        <d2p1:NormalTextureFile i:nil="true" />
+        <d2p1:Opacity>1</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>255</d5p1:B>
+          <d5p1:G>255</d5p1:G>
+          <d5p1:R>255</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>Material #2705</d2p1:Name>
+        <d2p1:NormalTextureFile i:nil="true" />
+        <d2p1:Opacity>1</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>255</d5p1:B>
+          <d5p1:G>255</d5p1:G>
+          <d5p1:R>255</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>Material #2706</d2p1:Name>
+        <d2p1:NormalTextureFile i:nil="true" />
+        <d2p1:Opacity>1</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>255</d5p1:B>
+          <d5p1:G>255</d5p1:G>
+          <d5p1:R>255</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>Material #2704</d2p1:Name>
+        <d2p1:NormalTextureFile i:nil="true" />
+        <d2p1:Opacity>1</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>255</d5p1:B>
+          <d5p1:G>255</d5p1:G>
+          <d5p1:R>255</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>Material #1670</d2p1:Name>
+        <d2p1:NormalTextureFile i:nil="true" />
+        <d2p1:Opacity>1</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>255</d5p1:B>
+          <d5p1:G>255</d5p1:G>
+          <d5p1:R>255</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>Material #2709</d2p1:Name>
+        <d2p1:NormalTextureFile i:nil="true" />
+        <d2p1:Opacity>1</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>255</d5p1:B>
+          <d5p1:G>255</d5p1:G>
+          <d5p1:R>255</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>Material #2713</d2p1:Name>
+        <d2p1:NormalTextureFile i:nil="true" />
+        <d2p1:Opacity>1</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>255</d5p1:B>
+          <d5p1:G>255</d5p1:G>
+          <d5p1:R>255</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>Material #2710</d2p1:Name>
+        <d2p1:NormalTextureFile i:nil="true" />
+        <d2p1:Opacity>1</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>246</d5p1:G>
+          <d5p1:R>255</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>09 - Default</d2p1:Name>
+        <d2p1:NormalTextureFile i:nil="true" />
+        <d2p1:Opacity>1</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+      <d2p1:Material>
+        <d2p1:AmbientColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:AmbientColor>
+        <d2p1:AmbientTextureFile i:nil="true" />
+        <d2p1:DiffuseColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:DiffuseColor>
+        <d2p1:DiffuseTextureFile i:nil="true" />
+        <d2p1:EmissiveColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:EmissiveColor>
+        <d2p1:EmissiveTextureFile i:nil="true" />
+        <d2p1:Name>09 - Defaultsdf</d2p1:Name>
+        <d2p1:NormalTextureFile i:nil="true" />
+        <d2p1:Opacity>1</d2p1:Opacity>
+        <d2p1:SpecularColor xmlns:d5p1="WaveEngine.Common.Graphics">
+          <d5p1:A>255</d5p1:A>
+          <d5p1:B>0</d5p1:B>
+          <d5p1:G>0</d5p1:G>
+          <d5p1:R>0</d5p1:R>
+        </d2p1:SpecularColor>
+        <d2p1:SpecularTextureFile i:nil="true" />
+      </d2p1:Material>
+    </d2p1:Materials>
+    <d2p1:Meshes>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>1</d2p1:MaterialIndex>
+        <d2p1:Name>Object011</d2p1:Name>
+        <d2p1:NumFaces>14</d2p1:NumFaces>
+        <d2p1:NumVertices>28</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>1</d2p1:MaterialIndex>
+        <d2p1:Name>detailplacawai</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>1</d2p1:MaterialIndex>
+        <d2p1:Name>Object013</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>2</d2p1:MaterialIndex>
+        <d2p1:Name>Object022</d2p1:Name>
+        <d2p1:NumFaces>3478</d2p1:NumFaces>
+        <d2p1:NumVertices>4181</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>2</d2p1:MaterialIndex>
+        <d2p1:Name>Object023</d2p1:Name>
+        <d2p1:NumFaces>356</d2p1:NumFaces>
+        <d2p1:NumVertices>308</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>2</d2p1:MaterialIndex>
+        <d2p1:Name>Object033</d2p1:Name>
+        <d2p1:NumFaces>1742</d2p1:NumFaces>
+        <d2p1:NumVertices>2094</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>3</d2p1:MaterialIndex>
+        <d2p1:Name>Object027</d2p1:Name>
+        <d2p1:NumFaces>5697</d2p1:NumFaces>
+        <d2p1:NumVertices>4958</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>4</d2p1:MaterialIndex>
+        <d2p1:Name>Tapa</d2p1:Name>
+        <d2p1:NumFaces>4954</d2p1:NumFaces>
+        <d2p1:NumVertices>3511</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>5</d2p1:MaterialIndex>
+        <d2p1:Name>Cartela_500</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>5</d2p1:MaterialIndex>
+        <d2p1:Name>Cartela_1000</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>5</d2p1:MaterialIndex>
+        <d2p1:Name>Cartela_1700</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>5</d2p1:MaterialIndex>
+        <d2p1:Name>Cartela_2400</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>6</d2p1:MaterialIndex>
+        <d2p1:Name>billete20</d2p1:Name>
+        <d2p1:NumFaces>4</d2p1:NumFaces>
+        <d2p1:NumVertices>8</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>6</d2p1:MaterialIndex>
+        <d2p1:Name>billete50</d2p1:Name>
+        <d2p1:NumFaces>4</d2p1:NumFaces>
+        <d2p1:NumVertices>8</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>6</d2p1:MaterialIndex>
+        <d2p1:Name>billete10</d2p1:Name>
+        <d2p1:NumFaces>4</d2p1:NumFaces>
+        <d2p1:NumVertices>8</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>6</d2p1:MaterialIndex>
+        <d2p1:Name>billete20</d2p1:Name>
+        <d2p1:NumFaces>4</d2p1:NumFaces>
+        <d2p1:NumVertices>8</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>6</d2p1:MaterialIndex>
+        <d2p1:Name>billete5</d2p1:Name>
+        <d2p1:NumFaces>4</d2p1:NumFaces>
+        <d2p1:NumVertices>8</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>7</d2p1:MaterialIndex>
+        <d2p1:Name>Pantalla_Prosegur</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>7</d2p1:MaterialIndex>
+        <d2p1:Name>Pantalla_500</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>7</d2p1:MaterialIndex>
+        <d2p1:Name>Pantalla_1000</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>7</d2p1:MaterialIndex>
+        <d2p1:Name>Pantalla_1700</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>7</d2p1:MaterialIndex>
+        <d2p1:Name>Pantalla_2700</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>8</d2p1:MaterialIndex>
+        <d2p1:Name>Ticket_500</d2p1:Name>
+        <d2p1:NumFaces>18</d2p1:NumFaces>
+        <d2p1:NumVertices>20</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>8</d2p1:MaterialIndex>
+        <d2p1:Name>Ticket_1000</d2p1:Name>
+        <d2p1:NumFaces>18</d2p1:NumFaces>
+        <d2p1:NumVertices>20</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>8</d2p1:MaterialIndex>
+        <d2p1:Name>Ticket_1700</d2p1:Name>
+        <d2p1:NumFaces>18</d2p1:NumFaces>
+        <d2p1:NumVertices>20</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>8</d2p1:MaterialIndex>
+        <d2p1:Name>Ticket_2700</d2p1:Name>
+        <d2p1:NumFaces>18</d2p1:NumFaces>
+        <d2p1:NumVertices>20</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>9</d2p1:MaterialIndex>
+        <d2p1:Name>Plane061</d2p1:Name>
+        <d2p1:NumFaces>4</d2p1:NumFaces>
+        <d2p1:NumVertices>8</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>0</d2p1:MaterialIndex>
+        <d2p1:Name>Box008</d2p1:Name>
+        <d2p1:NumFaces>516</d2p1:NumFaces>
+        <d2p1:NumVertices>425</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>10</d2p1:MaterialIndex>
+        <d2p1:Name>Object043</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>10</d2p1:MaterialIndex>
+        <d2p1:Name>Object044</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>10</d2p1:MaterialIndex>
+        <d2p1:Name>Object045</d2p1:Name>
+        <d2p1:NumFaces>16</d2p1:NumFaces>
+        <d2p1:NumVertices>18</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>10</d2p1:MaterialIndex>
+        <d2p1:Name>Object046</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>10</d2p1:MaterialIndex>
+        <d2p1:Name>Object047</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>10</d2p1:MaterialIndex>
+        <d2p1:Name>Object048</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>10</d2p1:MaterialIndex>
+        <d2p1:Name>Object049</d2p1:Name>
+        <d2p1:NumFaces>16</d2p1:NumFaces>
+        <d2p1:NumVertices>18</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>10</d2p1:MaterialIndex>
+        <d2p1:Name>Object050</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>10</d2p1:MaterialIndex>
+        <d2p1:Name>Object036</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>10</d2p1:MaterialIndex>
+        <d2p1:Name>Object035</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>10</d2p1:MaterialIndex>
+        <d2p1:Name>Object038</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>10</d2p1:MaterialIndex>
+        <d2p1:Name>Object037</d2p1:Name>
+        <d2p1:NumFaces>16</d2p1:NumFaces>
+        <d2p1:NumVertices>18</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>10</d2p1:MaterialIndex>
+        <d2p1:Name>Object051</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>10</d2p1:MaterialIndex>
+        <d2p1:Name>Object052</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>10</d2p1:MaterialIndex>
+        <d2p1:Name>Object053</d2p1:Name>
+        <d2p1:NumFaces>16</d2p1:NumFaces>
+        <d2p1:NumVertices>18</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>10</d2p1:MaterialIndex>
+        <d2p1:Name>Object039</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>10</d2p1:MaterialIndex>
+        <d2p1:Name>Object040</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>10</d2p1:MaterialIndex>
+        <d2p1:Name>Object042</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>10</d2p1:MaterialIndex>
+        <d2p1:Name>Object041</d2p1:Name>
+        <d2p1:NumFaces>16</d2p1:NumFaces>
+        <d2p1:NumVertices>18</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>10</d2p1:MaterialIndex>
+        <d2p1:Name>Object025</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>10</d2p1:MaterialIndex>
+        <d2p1:Name>Object026</d2p1:Name>
+        <d2p1:NumFaces>2</d2p1:NumFaces>
+        <d2p1:NumVertices>4</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>10</d2p1:MaterialIndex>
+        <d2p1:Name>Object034</d2p1:Name>
+        <d2p1:NumFaces>16</d2p1:NumFaces>
+        <d2p1:NumVertices>18</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>11</d2p1:MaterialIndex>
+        <d2p1:Name>Text016</d2p1:Name>
+        <d2p1:NumFaces>2796</d2p1:NumFaces>
+        <d2p1:NumVertices>2112</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>11</d2p1:MaterialIndex>
+        <d2p1:Name>Text017</d2p1:Name>
+        <d2p1:NumFaces>3096</d2p1:NumFaces>
+        <d2p1:NumVertices>2331</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>11</d2p1:MaterialIndex>
+        <d2p1:Name>Text014</d2p1:Name>
+        <d2p1:NumFaces>2352</d2p1:NumFaces>
+        <d2p1:NumVertices>1788</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>11</d2p1:MaterialIndex>
+        <d2p1:Name>Text018</d2p1:Name>
+        <d2p1:NumFaces>2468</d2p1:NumFaces>
+        <d2p1:NumVertices>1857</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>11</d2p1:MaterialIndex>
+        <d2p1:Name>Text015</d2p1:Name>
+        <d2p1:NumFaces>5364</d2p1:NumFaces>
+        <d2p1:NumVertices>4053</d2p1:NumVertices>
+      </d2p1:Mesh>
+      <d2p1:Mesh>
+        <d2p1:MaterialIndex>11</d2p1:MaterialIndex>
+        <d2p1:Name>Text009</d2p1:Name>
+        <d2p1:NumFaces>5772</d2p1:NumFaces>
+        <d2p1:NumVertices>4356</d2p1:NumVertices>
+      </d2p1:Mesh>
+    </d2p1:Meshes>
+    <d2p1:Nodes xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+      <d3p1:string>RootNode</d3p1:string>
+      <d3p1:string>RootNode.Box008</d3p1:string>
+      <d3p1:string>RootNode.Object011</d3p1:string>
+      <d3p1:string>RootNode.detailplacawai</d3p1:string>
+      <d3p1:string>RootNode.Object013</d3p1:string>
+      <d3p1:string>RootNode.Object022</d3p1:string>
+      <d3p1:string>RootNode.Object023</d3p1:string>
+      <d3p1:string>RootNode.Object027</d3p1:string>
+      <d3p1:string>RootNode.Tapa</d3p1:string>
+      <d3p1:string>RootNode.PhysCamera001</d3p1:string>
+      <d3p1:string>RootNode.PhysCamera001.Cartela_500</d3p1:string>
+      <d3p1:string>RootNode.PhysCamera001.Cartela_1000</d3p1:string>
+      <d3p1:string>RootNode.PhysCamera001.Cartela_1700</d3p1:string>
+      <d3p1:string>RootNode.PhysCamera001.Cartela_2400</d3p1:string>
+      <d3p1:string>RootNode.PhysCamera001.Dummy001</d3p1:string>
+      <d3p1:string>RootNode.billetes</d3p1:string>
+      <d3p1:string>RootNode.billetes.billete20</d3p1:string>
+      <d3p1:string>RootNode.billetes.billete50</d3p1:string>
+      <d3p1:string>RootNode.billetes.billete10</d3p1:string>
+      <d3p1:string>RootNode.billetes.billete20_001</d3p1:string>
+      <d3p1:string>RootNode.billetes.billete5</d3p1:string>
+      <d3p1:string>RootNode.Pantalla_Prosegur</d3p1:string>
+      <d3p1:string>RootNode.Pantalla_500</d3p1:string>
+      <d3p1:string>RootNode.Pantalla_1000</d3p1:string>
+      <d3p1:string>RootNode.Pantalla_1700</d3p1:string>
+      <d3p1:string>RootNode.Pantalla_2700</d3p1:string>
+      <d3p1:string>RootNode.Ticket_500</d3p1:string>
+      <d3p1:string>RootNode.Plane061</d3p1:string>
+      <d3p1:string>RootNode.Ticket_1000</d3p1:string>
+      <d3p1:string>RootNode.Ticket_1700</d3p1:string>
+      <d3p1:string>RootNode.Ticket_2700</d3p1:string>
+      <d3p1:string>RootNode.Object033</d3p1:string>
+      <d3p1:string>RootNode.Object043</d3p1:string>
+      <d3p1:string>RootNode.Object043.Text016</d3p1:string>
+      <d3p1:string>RootNode.Object044</d3p1:string>
+      <d3p1:string>RootNode.Object045</d3p1:string>
+      <d3p1:string>RootNode.Object046</d3p1:string>
+      <d3p1:string>RootNode.Object047</d3p1:string>
+      <d3p1:string>RootNode.Object047.Text017</d3p1:string>
+      <d3p1:string>RootNode.Object048</d3p1:string>
+      <d3p1:string>RootNode.Object049</d3p1:string>
+      <d3p1:string>RootNode.Object050</d3p1:string>
+      <d3p1:string>RootNode.Object036</d3p1:string>
+      <d3p1:string>RootNode.Object035</d3p1:string>
+      <d3p1:string>RootNode.Object035.Text014</d3p1:string>
+      <d3p1:string>RootNode.Object038</d3p1:string>
+      <d3p1:string>RootNode.Object037</d3p1:string>
+      <d3p1:string>RootNode.Object051</d3p1:string>
+      <d3p1:string>RootNode.Object051.Text018</d3p1:string>
+      <d3p1:string>RootNode.Object052</d3p1:string>
+      <d3p1:string>RootNode.Object053</d3p1:string>
+      <d3p1:string>RootNode.Group001</d3p1:string>
+      <d3p1:string>RootNode.Group001.Object039</d3p1:string>
+      <d3p1:string>RootNode.Group001.Object039.Text015</d3p1:string>
+      <d3p1:string>RootNode.Group001.Object040</d3p1:string>
+      <d3p1:string>RootNode.Group001.Object042</d3p1:string>
+      <d3p1:string>RootNode.Group001.Object041</d3p1:string>
+      <d3p1:string>RootNode.Group002</d3p1:string>
+      <d3p1:string>RootNode.Group002.Object025</d3p1:string>
+      <d3p1:string>RootNode.Group002.Object025.Text009</d3p1:string>
+      <d3p1:string>RootNode.Group002.Object026</d3p1:string>
+      <d3p1:string>RootNode.Group002.Object034</d3p1:string>
+    </d2p1:Nodes>
+    <d2p1:SourceAnimationTracks xmlns:d3p1="http://schemas.datacontract.org/2004/07/WaveEngine.Framework.Models.Profiles">
+      <d3p1:AnimationTrackModel>
+        <d3p1:Duration>183.333328</d3p1:Duration>
+        <d3p1:Framerate>30</d3p1:Framerate>
+        <d3p1:Name>Take 001</d3p1:Name>
+      </d3p1:AnimationTrackModel>
+    </d2p1:SourceAnimationTracks>
+    <d2p1:SwapWindingOrder>true</d2p1:SwapWindingOrder>
+  </Asset>
+  <Thumbnail>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHh4eP94eHj/eHh4/3h4eP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHh4eP94eHj/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADo6Ov86Ojr/Ojo6/zo6Ov84ODj/Ojo6/zo6Ov86Ojr/Ojo6/zo6Ov86Ojr/Ojo6/zo6Ov86Ojr/Ojo6/zo6Ov88PDz/PDw8/zw8PP8+Pj7/Pj4+/zo6Ov86Ojr/Ojo6/zo6Ov80NDT/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NDT/NjY2/zY2Nv84ODj/Ojo6/zo6Ov8mJib/JiYm/yQkJP8iIiL/IiIi/yAgIP8eHh7/NDQ0/zo6Ov86Ojr/PDw8/zw8PP88PDz/Pj4+/z4+Pv86Ojr/Ojo6/zo6Ov86Ojr/NDQ0/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQ0/zY2Nv82Njb/ODg4/zo6Ov8+Pj7/Pj4+/z4+Pv8+Pj7/Pj4+/zw8PP88PDz/PDw8/zw8PP86Ojr/Ojo6/zw8PP88PDz/PDw8/z4+Pv8+Pj7/Ojo6/zo6Ov86Ojr/Ojo6/zQ0NP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0NP82Njb/NjY2/zg4OP86Ojr/Ojo6/zo6Ov86Ojr/Ojo6/zo6Ov86Ojr/Ojo6/zo6Ov86Ojr/Ojo6/zo6Ov86Ojr/Ojo6/zo6Ov86Ojr/Pj4+/z4+Pv9AQED/QEBA/0JCQv80NDT/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NDT/NjY2/zY2Nv84ODj/Ojo6/zo6Ov86Ojr/Ojo6/zo6Ov86Ojr/Ojo6/zo6Ov86Ojr/Ojo6/zo6Ov86Ojr/Ojo6/zo6Ov86Ojr/Ojo6/z4+Pv8+Pj7/QEBA/0BAQP9CQkL/NDQ0/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQ0/zY2Nv82Njb/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zo6Ov86Ojr/Ojo6/zo6Ov86Ojr/Ojo6/zo6Ov8+Pj7/Pj4+/0BAQP9AQED/QkJC/zQ0NP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0NP82Njb/NjY2/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP86Ojr/Ojo6//////88PDz/Pj4+/3Z2dv8+Pj7/Pj4+/z4+Pv9AQED/QEBA/0JCQv80NDT/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NDT/NjY2/zY2Nv84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/Ojo6/+Pj4/84ODj/PDw8/z4+Pv9AQED/fn5+/z4+Pv8+Pj7/QEBA/0BAQP9CQkL/NDQ0/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQ0/zY2Nv82Njb/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zo6Ov9MTEz/TExM/0xMTP9MTEz/TExM/0xMTP8+Pj7/Pj4+/0BAQP9AQED/QkJC/zQ0NP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0NP82Njb/NjY2/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP86Ojr/TExM/0xMTP9MTEz/TExM/0xMTP9MTEz/Pj4+/z4+Pv9AQED/QEBA/0JCQv80NDT/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NDT/NjY2/zY2Nv82Njb/NjY2/zY2Nv82Njb/NjY2/zg4OP84ODj/ODg4/zg4OP84ODj/Ojo6/05OTv9OTk7/Tk5O/05OTv9OTk7/Tk5O/z4+Pv8+Pj7/QEBA/0JCQv9CQkL/NDQ0/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQ0/zY2Nv82Njb/NjY2/zY2Nv82Njb/NjY2/zY2Nv84ODj/ODg4/zg4OP84ODj/ODg4/zo6Ov86Ojr/AAAA/zQ0NP82Njb/Dg4O/z4+Pv8+Pj7/Pj4+/0BAQP9CQkL/QkJC/zQ0NP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0NP82Njb/NjY2/zY2Nv82Njb/NjY2/zY2Nv82Njb/ODg4/zg4OP84ODj/ODg4/zg4OP86Ojr/Ojo6/zo6Ov88PDz/PDw8/zw8PP8+Pj7/Pj4+/z4+Pv9AQED/QkJC/0JCQv80NDT/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NDT/NjY2/zY2Nv82Njb/NjY2/zY2Nv82Njb/NjY2/zg4OP84ODj/ODg4/zg4OP84ODj/Ojo6/zo6Ov86Ojr/PDw8/zw8PP88PDz/Pj4+/z4+Pv9AQED/QEBA/0JCQv9CQkL/NDQ0/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQ0/zY2Nv82Njb/NjY2/zY2Nv82Njb/NjY2/zY2Nv84ODj/ODg4/zg4OP84ODj/ODg4/zo6Ov86Ojr/Ojo6/zw8PP8eHh7/dnZ2/z4+Pv8+Pj7/QEBA/0BAQP9CQkL/QkJC/zQ0NP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0NP80NDT/NDQ0/zY2Nv82Njb/NjY2/zY2Nv82Njb/ODg4/zg4OP84ODj/ODg4/zg4OP86Ojr/Ojo6/z4+Pv86Ojr/MjIy/wYGBv8+Pj7/Pj4+/0BAQP9AQED/QkJC/0JCQv80NDT/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NDT/NDQ0/zQ0NP82Njb/NjY2/zY2Nv82Njb/NjY2/zg4OP84ODj/ODg4/zg4OP84ODj/Ojo6/zo6Ov9aWlr/Pj4+/zo6Ov8mJib/RkZG/z4+Pv9AQED/QEBA/0JCQv9CQkL/NDQ0/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQ0/zQ0NP80NDT/NjY2/zY2Nv82Njb/NjY2/zY2Nv84ODj/ODg4/zg4OP84ODj/ODg4/zo6Ov86Ojr/QkJC/11dXf9CQkL/Kioq/z4+Pv8+Pj7/QEBA/0BAQP9CQkL/QkJC/zQ0NP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0NP80NDT/NDQ0/zY2Nv82Njb/NjY2/zY2Nv82Njb/ODg4/zg4OP84ODj/ODg4/zg4OP86Ojr/Ojo6/zo6Ov8YGBj/SkpK/woKCv8+Pj7/Pj4+/0BAQP9AQED/QkJC/0JCQv80NDT/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NDT/NDQ0/zQ0NP82Njb/NjY2/zY2Nv82Njb/ODg4/zg4OP84ODj/ODg4/zo6Ov86Ojr/Ojo6/zo6Ov88PDz/PDw8/zw8PP8+Pj7/Pj4+/z4+Pv9AQED/QEBA/0JCQv9CQkL/NDQ0/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQ0/zQ0NP80NDT/NjY2/zY2Nv82Njb/NjY2/zg4OP84ODj/ODg4/zg4OP86Ojr/Ojo6/zo6Ov86Ojr/PDw8/zw8PP88PDz/Pj4+/z4+Pv8+Pj7/QEBA/0BAQP9CQkL/QkJC/zQ0NP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0NP80NDT/NDQ0/zY2Nv82Njb/NjY2/zY2Nv84ODj/ODg4/zg4OP84ODj/Ojo6/zo6Ov86Ojr/Ojo6/zw8PP88PDz/PDw8/z4+Pv8+Pj7/Pj4+/0BAQP9AQED/QkJC/0JCQv80NDT/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NDT/NDQ0/zQ0NP82Njb/NjY2/zY2Nv82Njb/ODg4/zg4OP84ODj/ODg4/zo6Ov86Ojr/Ojo6/zo6Ov88PDz/PDw8/zw8PP8+Pj7/Pj4+/z4+Pv9AQED/QEBA/0JCQv9CQkL/NDQ0/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQ0/zQ0NP80NDT/NjY2/zY2Nv82Njb/NjY2/zg4OP84ODj/ODg4/zg4OP86Ojr/Ojo6/zo6Ov86Ojr/PDw8/zw8PP88PDz/Pj4+/z4+Pv8+Pj7/QEBA/0BAQP9CQkL/QkJC/zQ0NP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0NP80NDT/NDQ0/zY2Nv82Njb/NjY2/zY2Nv84ODj/ODg4/zg4OP84ODj/Ojo6/zo6Ov86Ojr/Ojo6/zw8PP88PDz/PDw8/z4+Pv8+Pj7/Pj4+/0BAQP9AQED/QkJC/0JCQv80NDT/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NDT/NDQ0/zQ0NP82Njb/NjY2/zY2Nv82Njb/ODg4/zg4OP84ODj/ODg4/zo6Ov86Ojr/Ojo6/zo6Ov88PDz/PDw8/zw8PP8+Pj7/Pj4+/z4+Pv9AQED/QEBA/0JCQv9CQkL/NDQ0/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALCws/ywsLP8uLi7/Li4u/y4uLv8wMDD/MDAw/zAwMP8wMDD/MDAw/zIyMv8yMjL/NDQ0/zQ0NP80NDT/NjY2/zY2Nv82Njb/NjY2/zg4OP84ODj/Ojo6/zo6Ov88PDz/PDw8/zw8PP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADY2Nv82Njb/NjY2/zY2Nv84ODj/ODg4/zg4OP86Ojr/Ojo6/zo6Ov86Ojr/Ojo6/zw8PP88PDz/PDw8/zw8PP88PDz/Ojo6/zo6Ov86Ojr/PDw8/zw8PP88PDz/Pj4+/z4+Pv8+Pj7/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</Thumbnail>
+  <Version xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
+    <d2p1:_Build>0</d2p1:_Build>
+    <d2p1:_Major>1</d2p1:_Major>
+    <d2p1:_Minor>0</d2p1:_Minor>
+    <d2p1:_Revision>0</d2p1:_Revision>
+  </Version>
+</Asset>

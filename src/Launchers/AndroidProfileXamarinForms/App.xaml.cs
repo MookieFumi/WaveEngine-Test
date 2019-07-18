@@ -20,7 +20,6 @@ namespace XamarinForms3DCarSample
         {
             InitializeComponent();
 
-            //await NavigationService.NavigateAsync($"{nameof(LoginView)}");
             await NavigationService.NavigateAsync($"/{nameof(NavigationPage)}/MainView");
         }
 
@@ -41,16 +40,12 @@ namespace XamarinForms3DCarSample
             //moduleManager.LoadModule(nameof(LoginModule.LoginModule));
         }
 
-        private void InitGame()
-        {
-            Game = new Game();
-        }
-
         #region App Events
 
         protected override void OnStart()
         {
-            InitGame();
+            Game = new Game();
+
             base.OnStart();
         }
 
