@@ -1,7 +1,4 @@
-using SlideOverKit;
-using System;
 using Xamarin.Forms;
-using XamarinForms3DCarSample.ViewModels;
 
 namespace XamarinForms3DCarSample.Views
 {

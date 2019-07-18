@@ -8,12 +8,11 @@ using WaveEngine.Adapter;
 using WaveEngine.Common.Input;
 using XamarinForms3DCarSample.Helpers;
 using Xamarin.Forms;
-using DLToolkit.Forms.Controls;
 
 namespace XamarinForms3DCarSample.Droid
 {
     [Activity(
-        Label = "XamarinForms3DCarSample",
+        Label = "Prosegur demo",
         Icon = "@drawable/icon", MainLauncher = true,
         ScreenOrientation = ScreenOrientation.Landscape,
         ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
@@ -188,9 +187,7 @@ namespace XamarinForms3DCarSample.Droid
 
             Window.AddFlags(WindowManagerFlags.Fullscreen);
 
-            Forms.Init(this, savedInstanceState);
-
-            FlowListView.Init();
+            Forms.Init(this, savedInstanceState);            
 
             LoadApplication(new App());
         }

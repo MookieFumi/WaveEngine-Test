@@ -54,12 +54,6 @@
     <AndroidLinkSkip>System.Runtime.Serialization</AndroidLinkSkip>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Autofac, Version=4.8.1.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Autofac.4.8.1\lib\netstandard1.1\Autofac.dll</HintPath>
-    </Reference>
-    <Reference Include="DLToolkit.Forms.Controls.FlowListView, Version=1.0.6234.35546, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\DLToolkit.Forms.Controls.FlowListView.2.0.3\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\DLToolkit.Forms.Controls.FlowListView.dll</HintPath>
-    </Reference>
     <Reference Include="FormsViewGroup, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.Forms.4.1.0.581479\lib\MonoAndroid90\FormsViewGroup.dll</HintPath>
     </Reference>
@@ -75,12 +69,6 @@
     </Reference>
     <Reference Include="Prism.Unity.Forms, Version=7.1.0.431, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Prism.Unity.Forms.7.1.0.431\lib\monoandroid71\Prism.Unity.Forms.dll</HintPath>
-    </Reference>
-    <Reference Include="SlideOverKit, Version=1.0.5974.31059, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\SlideOverKit.2.0.0\lib\MonoAndroid10\SlideOverKit.dll</HintPath>
-    </Reference>
-    <Reference Include="SlideOverKit.Droid, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\SlideOverKit.2.0.0\lib\MonoAndroid10\SlideOverKit.Droid.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
