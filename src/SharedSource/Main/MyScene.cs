@@ -14,7 +14,9 @@ namespace XamarinForms3DCarSample
         {
             base.Start();
 
+#if ANDROID || iOS
             MessagingCenter.Send(this, MessengerKeys.SceneInitialized);
+#endif
         }
     }
 }
