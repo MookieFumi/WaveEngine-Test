@@ -44,9 +44,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)Services\" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Update="D:\xamarin-forms-waveengine-sample\src\Launchers\AndroidProfileXamarinForms\Controls\3DPanelView.xaml.cs">
       <DependentUpon>3DPanelView.xaml</DependentUpon>
     </Compile>
