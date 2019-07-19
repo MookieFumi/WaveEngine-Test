@@ -4,7 +4,6 @@ using System.ComponentModel;
 using WaveEngine.Adapter;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
-using XamarinForms3DCarSample.Droid;
 using XamarinForms3DCarSample.Droid.Renderers;
 using XamarinForms3DCarSample.Controls;
 

@@ -6,14 +6,14 @@ namespace XamarinForms3DCarSample
     {
         protected override void CreateScene()
         {
-            this.Load(WaveContent.Scenes.MyScene);           
+            this.Load(WaveContent.Scenes.MyScene);
         }
 
         protected override void Start()
         {
             base.Start();
 
-#if ANDROID || iOS
+#if ANDROID || IOS
             Xamarin.Forms.MessagingCenter.Send(this, MessengerKeys.SceneInitialized);
 #endif
         }

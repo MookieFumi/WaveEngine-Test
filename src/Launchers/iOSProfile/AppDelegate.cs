@@ -1,11 +1,16 @@
 namespace XamarinForms3DCarSample
 {
+    using System;
     using Foundation;
     using UIKit;
+    using WaveEngine.Common;
+    using Xamarin.Forms;
+    using XamarinForms3DCarSample.Helpers;
 
     [Register("AppDelegate")]
     public class AppDelegate : Xamarin.Forms.Platform.iOS.FormsApplicationDelegate
     {
+        private IGame _game;
         //private UIWindow window;
 
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
@@ -19,6 +24,7 @@ namespace XamarinForms3DCarSample
             //this.window.MakeKeyAndVisible();
 
             //return true;
+
             Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 

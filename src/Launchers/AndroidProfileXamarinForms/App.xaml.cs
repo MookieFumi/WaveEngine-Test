@@ -10,7 +10,7 @@ namespace XamarinForms3DCarSample
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class App
     {
-        public static Game Game { get; set; }
+        public static Game Game { get; private set; }
 
         public App() : this(null) { }
 
