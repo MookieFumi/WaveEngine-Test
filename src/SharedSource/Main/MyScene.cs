@@ -1,5 +1,4 @@
 using WaveEngine.Framework;
-using Xamarin.Forms;
 
 namespace XamarinForms3DCarSample
 {
@@ -15,7 +14,7 @@ namespace XamarinForms3DCarSample
             base.Start();
 
 #if ANDROID || iOS
-            MessagingCenter.Send(this, MessengerKeys.SceneInitialized);
+            Xamarin.Forms.MessagingCenter.Send(this, MessengerKeys.SceneInitialized);
 #endif
         }
     }

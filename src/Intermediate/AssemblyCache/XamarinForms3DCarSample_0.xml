@@ -14,131 +14,200 @@
             Called when [deactivate].
             </summary>
         </member>
-        <member name="T:XamarinForms3DCarSample.RotateToShortest3DGameAction">
-            <summary>
-            Game action that rotates an entity 3D.
-            </summary>
-        </member>
-        <member name="F:XamarinForms3DCarSample.RotateToShortest3DGameAction.transform">
-            <summary>
-            The transform 3D
-            </summary>
-        </member>
-        <member name="F:XamarinForms3DCarSample.RotateToShortest3DGameAction.local">
-            <summary>
-            If the animation is in local coordinates.
-            </summary>
-        </member>
-        <member name="F:XamarinForms3DCarSample.RotateToShortest3DGameAction.shorterPath">
-            <summary>
-            If the animation rotates on the shorter path
-            </summary>
-        </member>
-        <member name="M:XamarinForms3DCarSample.RotateToShortest3DGameAction.#ctor(WaveEngine.Framework.Entity,WaveEngine.Common.Math.Vector3,System.TimeSpan,WaveEngine.Components.GameActions.EaseFunction,System.Boolean,System.Boolean)">
-            <summary>
-            Initializes a new instance of the <see cref="T:WaveEngine.Components.GameActions.RotateTo3DGameAction"/> class.
-            </summary>
-            <param name="entity">The target entity</param>
-            <param name="to">The target rotation</param>
-            <param name="time">Animation duration</param>
-            <param name="ease">The ease function</param>
-            <param name="local">If the rotation is in local coordinates</param>
-            <param name="shorterPath">If the rotation goes on the shorter path</param>
-        </member>
-        <member name="M:XamarinForms3DCarSample.RotateToShortest3DGameAction.PerformRun">
-            <summary>
-            Performs the run operation
-            </summary>
-        </member>
-        <member name="M:XamarinForms3DCarSample.RotateToShortest3DGameAction.RotateAction(WaveEngine.Common.Math.Vector3)">
-            <summary>
-            Rotate action
-            </summary>
-            <param name="delta">The delta rotation</param>
-        </member>
-        <member name="M:XamarinForms3DCarSample.RotateToShortest3DGameAction.LocalRotateAction(WaveEngine.Common.Math.Vector3)">
-            <summary>
-            Local Rotate action
-            </summary>
-            <param name="delta">The delta rotation</param>
-        </member>
         <member name="F:XamarinForms3DCarSample.WaveContent.GameInfo">
             <summary> Path to Content/XamarinForms3DCarSample.wgame </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.datsun240k_fbx">
-            <summary> Path to Content/Assets/Models/datsun240k.fbx </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.SDM100_fbx">
+            <summary> Path to Content/Assets/SDM100.fbx </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.Skybox_cubemap">
-            <summary> Path to Content/Assets/Models/Materials/Skybox.cubemap </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.SDM_100">
+            <summary> Path to Content/Assets/SDM_100.wpref </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.alloy">
-            <summary> Path to Content/Assets/Models/Materials/alloy.wmat </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.CDS_508_Textures.Cartelas_508_png">
+            <summary> Path to Content/Assets/CDS_508_Textures/Cartelas_508.png </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.black_matte">
-            <summary> Path to Content/Assets/Models/Materials/black_matte.wmat </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.CDS_508_Textures.Collapsed_508_png">
+            <summary> Path to Content/Assets/CDS_508_Textures/Collapsed_508.png </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.black_paint">
-            <summary> Path to Content/Assets/Models/Materials/black_paint.wmat </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.CDS_508_Textures.internal_508_png">
+            <summary> Path to Content/Assets/CDS_508_Textures/internal_508.png </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.chrome">
-            <summary> Path to Content/Assets/Models/Materials/chrome.wmat </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.CDS_508_Textures.monedas_508_jpg">
+            <summary> Path to Content/Assets/CDS_508_Textures/monedas_508.jpg </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.coat">
-            <summary> Path to Content/Assets/Models/Materials/coat.wmat </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.CDS_508_Textures.TICKETS_508_png">
+            <summary> Path to Content/Assets/CDS_508_Textures/TICKETS_508.png </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.DefaultMaterial">
-            <summary> Path to Content/Assets/Models/Materials/DefaultMaterial.wmat </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.CDS_801_Textures.All_801_png">
+            <summary> Path to Content/Assets/CDS_801_Textures/All_801.png </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.glass">
-            <summary> Path to Content/Assets/Models/Materials/glass.wmat </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.CDS_801_Textures.Bag_801_png">
+            <summary> Path to Content/Assets/CDS_801_Textures/Bag_801.png </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.headlights">
-            <summary> Path to Content/Assets/Models/Materials/headlights.wmat </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.CDS_801_Textures.Details_801_png">
+            <summary> Path to Content/Assets/CDS_801_Textures/Details_801.png </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.license">
-            <summary> Path to Content/Assets/Models/Materials/license.wmat </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.CDS_508_fbx">
+            <summary> Path to Content/Assets/Materials/CDS_508.fbx </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.orange_glass">
-            <summary> Path to Content/Assets/Models/Materials/orange_glass.wmat </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials._01_Default">
+            <summary> Path to Content/Assets/Materials/01 - Default.wmat </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.paint">
-            <summary> Path to Content/Assets/Models/Materials/paint.wmat </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials._02_Default">
+            <summary> Path to Content/Assets/Materials/02 - Default.wmat </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.red_glass">
-            <summary> Path to Content/Assets/Models/Materials/red_glass.wmat </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials._03_Default">
+            <summary> Path to Content/Assets/Materials/03 - Default.wmat </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.stickers">
-            <summary> Path to Content/Assets/Models/Materials/stickers.wmat </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials._09_Default">
+            <summary> Path to Content/Assets/Materials/09 - Default.wmat </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Models.Materials.tire">
-            <summary> Path to Content/Assets/Models/Materials/tire.wmat </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials._09_Defaultsdf">
+            <summary> Path to Content/Assets/Materials/09 - Defaultsdf.wmat </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Textures.black_png">
-            <summary> Path to Content/Assets/Textures/black.png </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials._11_Default">
+            <summary> Path to Content/Assets/Materials/11 - Default.wmat </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Textures.c4d13e1ef5c20e49d7206aefff123f19_no_signa_jpg">
-            <summary> Path to Content/Assets/Textures/c4d13e1ef5c20e49d7206aefff123f19--no-signa.jpg </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials._13_Default">
+            <summary> Path to Content/Assets/Materials/13 - Default.wmat </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Textures.headlight_normal_jpg">
-            <summary> Path to Content/Assets/Textures/headlight_normal.jpg </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials._24_Default">
+            <summary> Path to Content/Assets/Materials/24 - Default.wmat </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Textures.plate_png">
-            <summary> Path to Content/Assets/Textures/plate.png </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.cristal">
+            <summary> Path to Content/Assets/Materials/cristal.wmat </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Textures.shadow_png">
-            <summary> Path to Content/Assets/Textures/shadow.png </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.DefaultMaterial">
+            <summary> Path to Content/Assets/Materials/DefaultMaterial.wmat </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Textures.stickers_png">
-            <summary> Path to Content/Assets/Textures/stickers.png </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_1670">
+            <summary> Path to Content/Assets/Materials/Material #1670.wmat </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Textures.tire_png">
-            <summary> Path to Content/Assets/Textures/tire.png </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_1671">
+            <summary> Path to Content/Assets/Materials/Material #1671.wmat </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Textures.tire3_png">
-            <summary> Path to Content/Assets/Textures/tire3.png </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_1672">
+            <summary> Path to Content/Assets/Materials/Material #1672.wmat </summary>
         </member>
-        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.floorMaterial">
-            <summary> Path to Content/Assets/Materials/floorMaterial.wmat </summary>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_1673">
+            <summary> Path to Content/Assets/Materials/Material #1673.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_1674">
+            <summary> Path to Content/Assets/Materials/Material #1674.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_1692">
+            <summary> Path to Content/Assets/Materials/Material #1692.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_1695">
+            <summary> Path to Content/Assets/Materials/Material #1695.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_1696">
+            <summary> Path to Content/Assets/Materials/Material #1696.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_1697">
+            <summary> Path to Content/Assets/Materials/Material #1697.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_243_Slot_1">
+            <summary> Path to Content/Assets/Materials/Material #243 Slot #1.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_243_Slot_2">
+            <summary> Path to Content/Assets/Materials/Material #243 Slot #2.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_243_Slot_3">
+            <summary> Path to Content/Assets/Materials/Material #243 Slot #3.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_243_Slot_4">
+            <summary> Path to Content/Assets/Materials/Material #243 Slot #4.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_243_Slot_5">
+            <summary> Path to Content/Assets/Materials/Material #243 Slot #5.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_243_Slot_6">
+            <summary> Path to Content/Assets/Materials/Material #243 Slot #6.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_2704">
+            <summary> Path to Content/Assets/Materials/Material #2704.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_2705">
+            <summary> Path to Content/Assets/Materials/Material #2705.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_2706">
+            <summary> Path to Content/Assets/Materials/Material #2706.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_2709">
+            <summary> Path to Content/Assets/Materials/Material #2709.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_2710">
+            <summary> Path to Content/Assets/Materials/Material #2710.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_2713">
+            <summary> Path to Content/Assets/Materials/Material #2713.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_2714">
+            <summary> Path to Content/Assets/Materials/Material #2714.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_343">
+            <summary> Path to Content/Assets/Materials/Material #343.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_346">
+            <summary> Path to Content/Assets/Materials/Material #346.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_349">
+            <summary> Path to Content/Assets/Materials/Material #349.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_356">
+            <summary> Path to Content/Assets/Materials/Material #356.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.Material_543">
+            <summary> Path to Content/Assets/Materials/Material #543.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.Materials.White_Plane">
+            <summary> Path to Content/Assets/Materials/White Plane.wmat </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.SDM_100_Textures.All_tickets_SDM_100_png">
+            <summary> Path to Content/Assets/SDM_100_Textures/All_tickets_SDM_100.png </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.SDM_100_Textures.interior_merge_SDM_100_png">
+            <summary> Path to Content/Assets/SDM_100_Textures/interior_merge_SDM_100.png </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.SDM_100_Textures.Pantallas_SDM_100_png">
+            <summary> Path to Content/Assets/SDM_100_Textures/Pantallas_SDM_100.png </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.SDM_100_Textures.SDM_100_png">
+            <summary> Path to Content/Assets/SDM_100_Textures/SDM_100.png </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.SDM_100_Textures.SMD_Details_100_png">
+            <summary> Path to Content/Assets/SDM_100_Textures/SMD_Details_100.png </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.SDM_100_Textures.xifres_entrada_SDM_100_png">
+            <summary> Path to Content/Assets/SDM_100_Textures/xifres entrada_SDM_100.png </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.SDM_500_Textures.arrow_SDM_500_png">
+            <summary> Path to Content/Assets/SDM_500_Textures/arrow_SDM_500.png </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.SDM_500_Textures.billetes_SDM_500_png">
+            <summary> Path to Content/Assets/SDM_500_Textures/billetes_SDM_500.png </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.SDM_500_Textures.desglose_SDM_500_png">
+            <summary> Path to Content/Assets/SDM_500_Textures/desglose_SDM_500.png </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.SDM_500_Textures.details_SDM_500_png">
+            <summary> Path to Content/Assets/SDM_500_Textures/details_SDM_500.png </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.SDM_500_Textures.Exterior_SDM_500_png">
+            <summary> Path to Content/Assets/SDM_500_Textures/Exterior_SDM_500.png </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.SDM_500_Textures.interior_SDM_500_png">
+            <summary> Path to Content/Assets/SDM_500_Textures/interior_SDM_500.png </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.SDM_500_Textures.Pantalles_SDM_500_png">
+            <summary> Path to Content/Assets/SDM_500_Textures/Pantalles_SDM_500.png </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.SDM_500_Textures.shadow_SDM_500_png">
+            <summary> Path to Content/Assets/SDM_500_Textures/shadow_SDM_500.png </summary>
+        </member>
+        <member name="F:XamarinForms3DCarSample.WaveContent.Assets.SDM_500_Textures.Tickets_SDM_500_png">
+            <summary> Path to Content/Assets/SDM_500_Textures/Tickets_SDM_500.png </summary>
         </member>
         <member name="F:XamarinForms3DCarSample.WaveContent.RenderLayers.Opaque">
             <summary>Id of Opaque</summary>
